@@ -1,2 +1,71 @@
-# freessr
+# 永久免费的翻墙梯子与免费SSR节点使用攻略
 电脑梯子软件,有什么好用的梯子,手机好用的梯子,手机梯子软件,电脑梯子推荐,ssr节点,v2ray节点分享,好用的机场梯子节点推荐
+
+**小编很长时间以来一直都在关注各类翻墙和科学上网技术与工具，包括使用SSR、V2ray、VMess、Torjan等翻墙方法，以及知名的蓝灯、小手电beam、老王VPN等梯子软件及各种GitHub[翻墙软件](https://cnodejs.org/topic/61d7f4ba994582199af7ce8c)与插件脚本。**
+
+这篇文章是结合小编这些年的经验，总结的梯子与SSR节点使用指南。
+
+## 目前值得推荐的SSR+V2ray梯子工具：
+
+### Westworld
+
+官网地址：[https://xbsj4621.fun/i/art021](https://xbsj4621.fun/i/art021)
+
+Westworld采用SSR+V2ray架构，在小编长达半年的速度测试中，Westworld基本保持第一名的位置。后台提供了IPLC线路给游戏玩家。对于大部分程序员朋友，Westworld提供了虚拟网卡功能，省去了繁琐的SSR和[V2ray翻墙软件](https://github.com/gelangtai/V2rayjichang/)设置（如Terminal、Telegram一键链接）。对于程序员经常访问的半封锁网站如Github，提供了Bypass China模式，可加速连接。
+
+### 什么是梯子？
+
+大家通常将中国的网络防火墙比作高墙，而翻墙就是越过这堵高墙，访问国外内容。梯子指的正是翻墙所使用的工具和技术。
+
+梯子主要是用于翻墙的技术和方法。在过去几年里，梯子主要指代Shadowsocks节点，现在更多的是SSR节点，并有可能发展为V2ray或Torjan。（Shadowsocks、SSR、V2ray和Torjan都代表不同的翻墙技术）
+
+### 都有哪些梯子？
+
+**Shadowsocks（SS）**
+
+Shadowsocks是最早出现的专为翻墙而设计的网络协议。Shadowsocks（简称SS）是一种基于Socks5代理方式的加密传输协议。
+
+**SSR（ShadowsocksR）**
+
+ShadowsocksR（简称SSR）是在Shadowsocks基础上由网友breakwa11开发的分支，增加了一些流量混淆方式，修复了部分安全问题并提高了QoS优先级。SSR是目前最广泛使用的翻墙技术。
+
+**V2ray**
+
+V2Ray是一个开发平台，所有开发者都能使用V2Ray开发的模块创建新的翻墙工具。V2Ray的模块化设计赢得了众多开发者的支持。根据自己的定位，V2ray可以根据用户需求定制不同的套件，提供个性化的翻墙服务。
+
+**Torjan**
+
+Torjan是最新推出的翻墙协议。Torjan仿照我们平时上网常见的HTTPS协议，通过模糊自身流量特征，使得翻墙用户能够隐藏在正常上网用户中。
+
+## SSR节点
+
+**什么是SSR节点？**
+
+SSR，即ShadowsocksR，是在Shadowsocks技术基础上进一步发展的翻墙技术。SSR节点是安装了SSR协议并提供中转服务器的服务供网友实现翻墙。
+
+**SSR节点与SSR软件**
+
+SSR节点只有服务器端，没有客户端。用户想要使用SSR进行翻墙，需要在电脑或手机上自行安装与SSR节点连接的软件，并按照SSR节点的要求自行配置所需参数。只有调试成功后才能连接并访问外网。
+
+而SSR软件/VPN SSR则是帮助用户预先配置复杂设置的软件，用户只需一键操作即可快速上网。
+
+## 如何使用SSR节点？
+
+拥有SSR节点的同时，还需安装能够连接SSR节点的客户端。可从GitHub获取SSR客户端。
+
+## 分享免费SSR节点
+以下的ssr节点都是小编从网络上筛选获取，并且测试过可以畅通使用的，在这里分享给大家，如果遇到节点失效，大家也可以到上面的[ssr+V2ray梯子](https://github.com/kelengting/V2rayssr/)网站中自动获取，里面每天都会分享免费的ssr节点和免费V2ray节点。
+
+ssr://Y25hbGxhejIuZXVjZHVybC5tZTo1NjY6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9vYmZzcGFyYW09TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJRJnByb3RvcGFyYW09TmpNNE1EazZVMVpKVUZSSldqZyZyZW1hcmtzPVFGTlRVbFJQVDB4ZlkyNWhiR3hoZWpJdVpYVmpaSFZ5YkM1dFpRJmdyb3VwPVUxTlNWRTlQVEM1RFQwMGc1bzZvNllDQg
+
+ssr://Y25jdXR3Mi5ldWNkdXJsLm1lOjU2NDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP29iZnNwYXJhbT1Nak5tWm1RM01URXViV2xqY205emIyWjBMbU52YlEmcHJvdG9wYXJhbT1Oak00TURrNlUxWkpVRlJKV2pnJnJlbWFya3M9UUZOVFVsUlBUMHhmWTI1amRYUjNNaTVsZFdOa2RYSnNMbTFsJmdyb3VwPVUxTlNWRTlQVEM1RFQwMGc1bzZvNllDQg
+
+ssr://Y25jdXR3Mi5ldWNkdXJsLm1lOjU2MjphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP29iZnNwYXJhbT1Nak5tWm1RM01URXViV2xqY205emIyWjBMbU52YlEmcHJvdG9wYXJhbT1Oak00TURrNlUxWkpVRlJKV2pnJnJlbWFya3M9UUZOVFVsUlBUMHhmWTI1amRYUjNNaTVsZFdOa2RYSnNMbTFsJmdyb3VwPVUxTlNWRTlQVEM1RFQwMGc1bzZvNllDQg
+
+ssr://Y21sYXllcjYuc3RhbmR1cmxzLmNvOjU2MDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP29iZnNwYXJhbT1Nak5tWm1RM01URXViV2xqY205emIyWjBMbU52YlEmcHJvdG9wYXJhbT1Oak00TURrNlUxWkpVRlJKV2pnJnJlbWFya3M9UUZOVFVsUlBUMHhmWTIxc1lYbGxjall1YzNSaGJtUjFjbXh6TG1OdiZncm91cD1VMU5TVkU5UFRDNURUMDBnNW82bzZZQ0I
+
+ssr://Y21sYXllcjYuc3RhbmR1cmxzLmNvOjU2MDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP29iZnNwYXJhbT1Nak5tWm1RM01URXViV2xqY205emIyWjBMbU52YlEmcHJvdG9wYXJhbT1Oak00TURrNlUxWkpVRlJKV2pnJnJlbWFya3M9UUZOVFVsUlBUMHhmWTIxc1lYbGxjall1YzNSaGJtUjFjbXh6TG1OdiZncm91cD1VMU5TVkU5UFRDNURUMDBnNW82bzZZQ0I
+
+ssr://dXNzdGFuZDEuZXVjZHVybC5tZTo1NjM6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9vYmZzcGFyYW09TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJRJnByb3RvcGFyYW09TmpNNE1EazZVMVpKVUZSSldqZyZyZW1hcmtzPVFGTlRVbFJQVDB4ZmRYTnpkR0Z1WkRFdVpYVmpaSFZ5YkM1dFpRJmdyb3VwPVUxTlNWRTlQVEM1RFQwMGc1bzZvNllDQg
+
+**自建梯子的好处在于服务器节点供自己独自使用，其VPN流量不像付费节点那样庞大，不容易被防火墙识别并阻拦。当然，这需要正确设置VPN。很多时候，自建节点不起作用不是因为被封锁，而是设置不正确。**
